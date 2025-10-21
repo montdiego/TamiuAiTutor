@@ -1,6 +1,11 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap");
+
+.bbh-sans-hegarty-regular {
+  font-family: var(--font-bbh-sans-hegarty), sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -11,8 +16,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-custom1: "BBH Sans Hegarty", sans-serif;
-  --font-custom2: "BBH Sans Bartle", sans-serif;
 }
 
 body {
