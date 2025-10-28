@@ -1,3 +1,3 @@
 export default function explore() {
-  return <div>Explore Page</div>;
+  return <div>Exploree Page</div>;
 }
