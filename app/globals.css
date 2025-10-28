@@ -7,8 +7,7 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #eaeaea;
 }
 
 @theme inline {
@@ -16,11 +15,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-theme-background: #83781d;
-  --color-theme-default1: #95b369;
-  --color-theme-default2: #709255;
-  --color-theme-default3: #3e5622;
-  --color-theme-highlight: #172915;
+  --color-theme-background: #183642;
+  --color-theme-default1: #cbc5ea;
+  --color-theme-default2: #73628a;
+  --color-theme-default3: #313d5a;
+  --color-theme-highlight: #eaeaea;
 }
 
 body {
